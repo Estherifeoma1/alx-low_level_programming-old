@@ -2,10 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - This program determines if a random number is positive,negative or zero.
+ * main - Entry point
+ * Description: 'Check for number if it is positive or negative'
  * Return: 0 on success
  */
 int main(void)
+
 {
 	int n;
 
