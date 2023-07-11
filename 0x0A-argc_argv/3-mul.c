@@ -26,6 +26,7 @@ int _atoi(char *s)
 	{
 		if (s[i] == '_')
 			++d;
+
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			digit = s[i] - '0';
@@ -47,7 +48,7 @@ int _atoi(char *s)
 }
 
 /**
- * main - multiples two numbers
+ * main - multiplies two numbers
  * @argc: number of arguments
  * @argv: array of arguments
  *
